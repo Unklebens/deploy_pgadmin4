@@ -1,0 +1,9 @@
+- name: deploy PGAdmin4 using a role
+  hosts: localhost
+  become: true
+  vars:
+    edit_hostname: "no"
+    hostname: "PGAdmin4"
+  roles:
+    - docker_role
+    - pgadmin4_role

@@ -1,0 +1,4 @@
+- src: https://github.com/Unklebens/docker_role.git
+- src: unklebens.docker_role
+- src: itirenegad.pgadmin4_role
+- src: https://github.com/itirenegad/pgadmin4_role.git
